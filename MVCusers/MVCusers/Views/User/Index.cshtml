@@ -1,0 +1,61 @@
+﻿@model IEnumerable<MVCusers.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Crear Usuario</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CP)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nombre_usu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.appaterno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.apmaterno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.edad)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CP)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nombre_usu)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.appaterno)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.apmaterno)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.edad)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.CP">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.CP">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.CP">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

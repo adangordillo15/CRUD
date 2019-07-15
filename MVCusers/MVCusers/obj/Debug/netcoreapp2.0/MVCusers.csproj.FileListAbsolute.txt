@@ -1,0 +1,11 @@
+C:\Users\field\source\repos\MVCusers\MVCusers\bin\Debug\netcoreapp2.0\MVCusers.deps.json
+C:\Users\field\source\repos\MVCusers\MVCusers\bin\Debug\netcoreapp2.0\MVCusers.runtimeconfig.json
+C:\Users\field\source\repos\MVCusers\MVCusers\bin\Debug\netcoreapp2.0\MVCusers.runtimeconfig.dev.json
+C:\Users\field\source\repos\MVCusers\MVCusers\bin\Debug\netcoreapp2.0\MVCusers.dll
+C:\Users\field\source\repos\MVCusers\MVCusers\bin\Debug\netcoreapp2.0\MVCusers.pdb
+C:\Users\field\source\repos\MVCusers\MVCusers\obj\Debug\netcoreapp2.0\MVCusers.csprojAssemblyReference.cache
+C:\Users\field\source\repos\MVCusers\MVCusers\obj\Debug\netcoreapp2.0\MVCusers.csproj.CoreCompileInputs.cache
+C:\Users\field\source\repos\MVCusers\MVCusers\obj\Debug\netcoreapp2.0\MVCusers.AssemblyInfoInputs.cache
+C:\Users\field\source\repos\MVCusers\MVCusers\obj\Debug\netcoreapp2.0\MVCusers.AssemblyInfo.cs
+C:\Users\field\source\repos\MVCusers\MVCusers\obj\Debug\netcoreapp2.0\MVCusers.dll
+C:\Users\field\source\repos\MVCusers\MVCusers\obj\Debug\netcoreapp2.0\MVCusers.pdb

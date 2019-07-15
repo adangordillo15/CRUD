@@ -1,0 +1,54 @@
+﻿@model MVCusers.Models.Usuario
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<h4>Usuario</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CP" class="control-label"></label>
+                <input asp-for="CP" class="form-control" />
+                <span asp-validation-for="CP" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nombre_usu" class="control-label"></label>
+                <input asp-for="nombre_usu" class="form-control" />
+                <span asp-validation-for="nombre_usu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="appaterno" class="control-label"></label>
+                <input asp-for="appaterno" class="form-control" />
+                <span asp-validation-for="appaterno" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="apmaterno" class="control-label"></label>
+                <input asp-for="apmaterno" class="form-control" />
+                <span asp-validation-for="apmaterno" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="edad" class="control-label"></label>
+                <input asp-for="edad" class="form-control" />
+                <span asp-validation-for="edad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
