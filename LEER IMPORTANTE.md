@@ -14,3 +14,5 @@ Intrucciones para la base de datos:
 Los archivos usuarios.mdf y usuarios_log.ldf pegalos en la siguiente carpeta de SQL Server:
 
 C:\Program Files\Microsoft SQL Server\MSSQL11.SQLEXPRESS\MSSQL\DATA
+
+Tener instalados Visual Studio 2017 y SQL Server
