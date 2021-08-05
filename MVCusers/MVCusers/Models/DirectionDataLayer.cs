@@ -9,7 +9,7 @@ namespace MVCusers.Models
 {
     public class DirectionDataLayer
     {
-        string connectionString = "Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=usuarios;Data Source=LAPTOP-1UAOC5JP\\SQLEXPRESS";
+        string connectionString = "Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=usuarios;Data Source=DESKTOP-J71CQGN\\ADAN";
 
         public IEnumerable<Direccion> GetAllDirections()
         {
